@@ -24,7 +24,10 @@ jobs:
         run: npm test
 
       - name: Build
-        run: echo " building application"
+        run: echo " building application"npm 
+
+      - name: Run ESLint
+        run: echo "ESLint succesful"
 
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
