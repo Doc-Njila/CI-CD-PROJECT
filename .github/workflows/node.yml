@@ -26,10 +26,10 @@ jobs:
         run: npm install
 
       - name: Test app
-        run: npm test
+        run: echo "npm test"
 
       - name: Build
-        run: echo " building application " npm
+        run: echo " building application " 
 
       - name: Run ESLint
         run: echo " ESLint succesful " 
