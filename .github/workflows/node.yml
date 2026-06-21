@@ -2,9 +2,9 @@ name: "Nodejs App CICD pipeline"
 
 on: 
     push: 
-      branches: [ "main" ]
+      branches: [ "master" ]
     pull_request:
-      branches: [ "main" ]
+      branches: [ "master" ]
 
       paths-ignore:
              -  'README.md'
